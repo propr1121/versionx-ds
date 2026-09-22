@@ -107,7 +107,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing:
     radial-gradient(ellipse 90% 50% at 10% 96%, rgba(110,90,224,.08), transparent 62%);
 }
 
-.stage { position: absolute; z-index: 2; left: 44%; right: 1%; top: 0; bottom: 0; perspective: 1500px; perspective-origin: 50% 46%; }
+.stage { position: absolute; z-index: 2; left: 46%; right: 1%; top: 0; bottom: 0; perspective: 1500px; perspective-origin: 50% 46%; }
 .deck { position: absolute; left: 50%; top: 50%; width: 760px; height: 560px; margin: -280px 0 0 -380px; transform-style: preserve-3d; }
 .panel { position: relative; border-radius: var(--radius-lg); background: rgba(20,21,28,.96); border: 1px solid var(--border-strong); box-shadow: var(--shadow-float); overflow: hidden; }
 .panel::after { content: ""; position: absolute; inset: 0; pointer-events: none; border-radius: inherit; background: linear-gradient(var(--sheen,104deg), rgba(255,255,255,.075), rgba(255,255,255,0) 42%); }
@@ -183,13 +183,13 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing:
 .orc .vf .mono { font-size: 10px; color: var(--text-faint); }
 
 /* ---- the beats ---- */
-.beats { position: absolute; z-index: 4; left: var(--gutter); top: 0; bottom: 0; width: min(430px, 38%); display: flex; align-items: center; pointer-events: none; }
+.beats { position: absolute; z-index: 4; left: var(--gutter); top: 0; bottom: 0; width: min(476px, 38%); display: flex; align-items: center; pointer-events: none; }
 .beat { position: absolute; opacity: 0; pointer-events: none; will-change: transform, opacity; }
 .beat.on { pointer-events: auto; }
 .beat .kicker { font-family: var(--font-mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--signal-text); margin-bottom: 14px; }
 .beat h1 { font-size: clamp(36px, 4.3vw, 55px); line-height: 1.04; letter-spacing: -.033em; margin-bottom: 16px; }
 .beat h1 em, .beat h2 em { font-style: normal; color: var(--signal-text); }
-.beat h2 { font-size: clamp(27px, 3.1vw, 40px); line-height: 1.1; letter-spacing: -.028em; margin-bottom: 13px; }
+.beat h2 { font-size: clamp(26px, 2.9vw, 37px); line-height: 1.1; letter-spacing: -.028em; margin-bottom: 13px; }
 .beat p { font-size: 16.4px; line-height: 1.55; color: var(--text-dim); }
 
 .capture { display: flex; gap: 8px; max-width: 420px; margin-top: 22px; }
@@ -583,7 +583,7 @@ footer { border-top: 1px solid var(--border); padding: 30px 0; }
 
       <div class="beat" data-beat="2">
         <p class="kicker">What replaces it</p>
-        <h2>One database.<br><em>Every record joined.</em></h2>
+        <h2>One database.<br><em>All records connected.</em></h2>
         <p>Version X does not sit on top of your stack. It replaces it, and every record inside is connected to every other.</p>
       </div>
 
